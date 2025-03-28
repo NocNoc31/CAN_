@@ -1,0 +1,14 @@
+[1.033s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/IPython doctest plugin': PYTHONPATH=/home/ubuntu/Desktop/MC_ws/build/IPython doctest plugin/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/MC_ws/install/IPython doctest plugin/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/Desktop/MC_ws/build/IPython doctest plugin/build --no-deps
+[1.627s] running develop
+[2.006s] running egg_info
+[2.007s] writing IPython_doctest_plugin.egg-info/PKG-INFO
+[2.007s] writing dependency_links to IPython_doctest_plugin.egg-info/dependency_links.txt
+[2.008s] writing entry points to IPython_doctest_plugin.egg-info/entry_points.txt
+[2.008s] writing top-level names to IPython_doctest_plugin.egg-info/top_level.txt
+[2.011s] reading manifest file 'IPython_doctest_plugin.egg-info/SOURCES.txt'
+[2.013s] writing manifest file 'IPython_doctest_plugin.egg-info/SOURCES.txt'
+[2.015s] running build_ext
+[2.016s] Creating /home/ubuntu/Desktop/MC_ws/install/IPython doctest plugin/lib/python3.10/site-packages/IPython-doctest-plugin.egg-link (link to .)
+[2.018s] 
+[2.018s] Installed /home/ubuntu/Desktop/MC_ws/build/IPython doctest plugin
+[2.072s] Invoked command in '/home/ubuntu/Desktop/MC_ws/build/IPython doctest plugin' returned '0': PYTHONPATH=/home/ubuntu/Desktop/MC_ws/build/IPython doctest plugin/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/MC_ws/install/IPython doctest plugin/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/Desktop/MC_ws/build/IPython doctest plugin/build --no-deps

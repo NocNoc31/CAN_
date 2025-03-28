@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing Visualize.egg-info/PKG-INFO
+writing dependency_links to Visualize.egg-info/dependency_links.txt
+writing entry points to Visualize.egg-info/entry_points.txt
+writing requirements to Visualize.egg-info/requires.txt
+writing top-level names to Visualize.egg-info/top_level.txt
+reading manifest file 'Visualize.egg-info/SOURCES.txt'
+writing manifest file 'Visualize.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/Desktop/MC_ws/install/Visualize/lib/python3.10/site-packages/Visualize.egg-link (link to .)
+Installing data_plot script to /home/ubuntu/Desktop/MC_ws/install/Visualize/lib/Visualize
+
+Installed /home/ubuntu/Desktop/MC_ws/build/Visualize

@@ -1,0 +1,8 @@
+[ 20%] Built target odrive_can_node
+[ 40%] Built target odrive_initializer
+[ 60%] Built target velocity_controller
+[ 70%] [32mBuilding CXX object CMakeFiles/impedance_multi_control.dir/src/impedance_multi_control.cpp.o[0m
+[ 90%] Built target read_param
+gmake[2]: *** [CMakeFiles/impedance_multi_control.dir/build.make:76: CMakeFiles/impedance_multi_control.dir/src/impedance_multi_control.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/impedance_multi_control.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

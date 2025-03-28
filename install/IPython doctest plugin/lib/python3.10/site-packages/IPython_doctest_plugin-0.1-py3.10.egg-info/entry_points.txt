@@ -1,0 +1,4 @@
+[nose.plugins.0.10]
+extdoctest = ipdoctest:ExtensionDoctest
+ipdoctest = ipdoctest:IPythonDoctest
+

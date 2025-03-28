@@ -1,0 +1,27 @@
+[0.492s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/impedance_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/impedance_control -- -j8 -l8
+[0.767s] [35m[1mConsolidate compiler generated dependencies of target impedance_control_node[0m
+[0.767s] [ 50%] [32mBuilding CXX object CMakeFiles/impedance_control_node.dir/src/impedance_control_node.cpp.o[0m
+[7.781s] [100%] [32m[1mLinking CXX executable impedance_control_node[0m
+[8.126s] [100%] Built target impedance_control_node
+[8.139s] Invoked command in '/home/ubuntu/Desktop/MC_ws/build/impedance_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/impedance_control -- -j8 -l8
+[8.141s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/impedance_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/MC_ws/build/impedance_control
+[8.148s] -- Install configuration: ""
+[8.149s] -- Execute custom install script
+[8.149s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/lib/impedance_control/impedance_control_node
+[8.150s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control//impedance_control.launch.py
+[8.150s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/ament_index/resource_index/package_run_dependencies/impedance_control
+[8.150s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/ament_index/resource_index/parent_prefix_path/impedance_control
+[8.151s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/environment/ament_prefix_path.sh
+[8.151s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/environment/ament_prefix_path.dsv
+[8.151s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/environment/path.sh
+[8.151s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/environment/path.dsv
+[8.152s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/local_setup.bash
+[8.153s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/local_setup.sh
+[8.154s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/local_setup.zsh
+[8.154s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/local_setup.dsv
+[8.154s] -- Symlinking: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/package.dsv
+[8.163s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/ament_index/resource_index/packages/impedance_control
+[8.163s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/cmake/impedance_controlConfig.cmake
+[8.163s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/cmake/impedance_controlConfig-version.cmake
+[8.163s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/package.xml
+[8.165s] Invoked command in '/home/ubuntu/Desktop/MC_ws/build/impedance_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/MC_ws/build/impedance_control

@@ -1,0 +1,14 @@
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/uninstall.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/odrive_can_control_uninstall.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/odrive_can_node.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/odrive_initializer.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/velocity_controller.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/impedance_multi_control.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/read_param.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/test.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/list_install_components.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/install.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/install/local.dir
+/home/ubuntu/Desktop/MC_ws/build/odrive_can_control/CMakeFiles/install/strip.dir

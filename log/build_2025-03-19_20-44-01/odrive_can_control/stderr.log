@@ -1,0 +1,13 @@
+[01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:[m[K In member function ‘[01m[Kvoid ODriveInitializer::initialize_odrive(int, const string&)[m[K’:
+[01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:111:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kیمت[m[K’ was not declared in this scope
+  111 |                                            0x00, 0x00, 0x00, 0x00}) <[01;31m[Kیمت[m[K
+      |                                                                      [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:113:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+  113 |  [01;31m[K0[m[K) {
+      |  [01;31m[K^[m[K
+[01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:109:12:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  109 |         if [01;36m[K([m[Ksend_can_frame(node_id, 0x0C, {initial_setpoint_bytes[0], initial_setpoint_bytes[1],
+      |            [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/odrive_initializer.dir/build.make:76: CMakeFiles/odrive_initializer.dir/src/odrive_initializer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/odrive_initializer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

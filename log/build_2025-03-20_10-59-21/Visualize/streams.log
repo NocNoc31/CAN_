@@ -1,0 +1,20 @@
+[1.273s] Invoking command in '/home/ubuntu/Desktop/MC_ws/src/Visualize': PYTHONPATH=/home/ubuntu/Desktop/MC_ws/build/Visualize/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/MC_ws/install/Visualize/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Visualize build --build-base /home/ubuntu/Desktop/MC_ws/build/Visualize/build install --record /home/ubuntu/Desktop/MC_ws/build/Visualize/install.log --single-version-externally-managed
+[1.547s] running egg_info
+[1.548s] writing ../../build/Visualize/Visualize.egg-info/PKG-INFO
+[1.548s] writing dependency_links to ../../build/Visualize/Visualize.egg-info/dependency_links.txt
+[1.548s] writing entry points to ../../build/Visualize/Visualize.egg-info/entry_points.txt
+[1.548s] writing requirements to ../../build/Visualize/Visualize.egg-info/requires.txt
+[1.548s] writing top-level names to ../../build/Visualize/Visualize.egg-info/top_level.txt
+[1.550s] reading manifest file '../../build/Visualize/Visualize.egg-info/SOURCES.txt'
+[1.551s] writing manifest file '../../build/Visualize/Visualize.egg-info/SOURCES.txt'
+[1.551s] running build
+[1.551s] running build_py
+[1.552s] running install
+[1.552s] running install_lib
+[1.553s] running install_egg_info
+[1.557s] removing '/home/ubuntu/Desktop/MC_ws/install/Visualize/lib/python3.10/site-packages/Visualize-0.0.1-py3.10.egg-info' (and everything under it)
+[1.557s] Copying ../../build/Visualize/Visualize.egg-info to /home/ubuntu/Desktop/MC_ws/install/Visualize/lib/python3.10/site-packages/Visualize-0.0.1-py3.10.egg-info
+[1.558s] running install_scripts
+[1.581s] Installing data_plot script to /home/ubuntu/Desktop/MC_ws/install/Visualize/lib/Visualize
+[1.581s] writing list of installed files to '/home/ubuntu/Desktop/MC_ws/build/Visualize/install.log'
+[1.607s] Invoked command in '/home/ubuntu/Desktop/MC_ws/src/Visualize' returned '0': PYTHONPATH=/home/ubuntu/Desktop/MC_ws/build/Visualize/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/MC_ws/install/Visualize/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Visualize build --build-base /home/ubuntu/Desktop/MC_ws/build/Visualize/build install --record /home/ubuntu/Desktop/MC_ws/build/Visualize/install.log --single-version-externally-managed

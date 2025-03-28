@@ -1,0 +1,16 @@
+/home/ubuntu/Desktop/MC_ws/install/data_pub/lib/data_pub/data_pub_node
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/ament_index/resource_index/package_run_dependencies/data_pub
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/ament_index/resource_index/parent_prefix_path/data_pub
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/environment/ament_prefix_path.sh
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/environment/ament_prefix_path.dsv
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/environment/path.sh
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/environment/path.dsv
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/local_setup.bash
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/local_setup.sh
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/local_setup.zsh
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/local_setup.dsv
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/package.dsv
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/ament_index/resource_index/packages/data_pub
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/cmake/data_pubConfig.cmake
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/cmake/data_pubConfig-version.cmake
+/home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/package.xml

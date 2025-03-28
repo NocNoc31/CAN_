@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bbb80fe44d3b1264e51b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "odrive_can_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "impedance_multi_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-impedance_multi_control-714bd9f384d9fc1c8572.json",
+					"name" : "impedance_multi_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can_control_uninstall-d4428dc1a3517e68aa2e.json",
+					"name" : "odrive_can_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can_node-66bec2c6d6df87170316.json",
+					"name" : "odrive_can_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_initializer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_initializer-2665f62bb53dc9cebcb5.json",
+					"name" : "odrive_initializer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "read_param::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-read_param-d78446a670f89a0f22d0.json",
+					"name" : "read_param",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-217bd658d8ab5b3ec427.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velocity_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velocity_controller-e4dbac9264e19be15b08.json",
+					"name" : "velocity_controller",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/Desktop/MC_ws/build/odrive_can_control",
+		"source" : "/home/ubuntu/Desktop/MC_ws/src/odrive_can_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

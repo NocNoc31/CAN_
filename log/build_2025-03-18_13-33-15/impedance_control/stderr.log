@@ -1,0 +1,7 @@
+[01m[K/home/ubuntu/Desktop/MC_ws/src/Control/Impedance_controller/src/impedance_control_node.cpp:[m[K In member function ‘[01m[Kvoid ImpedanceController::velocityCallback(int, std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ubuntu/Desktop/MC_ws/src/Control/Impedance_controller/src/impedance_control_node.cpp:334:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kq_ddot_current[m[K’ was not declared in this scope
+  334 |                     node->q_ddot_current = alpha * q_ddot_raw + (1 - alpha) * [01;31m[Kq_ddot_current[m[K;
+      |                                                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/impedance_control_node.dir/build.make:76: CMakeFiles/impedance_control_node.dir/src/impedance_control_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/impedance_control_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

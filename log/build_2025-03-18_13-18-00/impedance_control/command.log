@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/Desktop/MC_ws/build/impedance_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/impedance_control -- -j8 -l8
+Invoked command in '/home/ubuntu/Desktop/MC_ws/build/impedance_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/impedance_control -- -j8 -l8

@@ -1,0 +1,5 @@
+[0.538s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/impedance_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/impedance_control -- -j8 -l8
+[0.823s] [ 50%] [32mBuilding CXX object CMakeFiles/impedance_control_node.dir/src/impedance_control_node.cpp.o[0m
+[4.127s] gmake[2]: *** [CMakeFiles/impedance_control_node.dir/build.make:76: CMakeFiles/impedance_control_node.dir/src/impedance_control_node.cpp.o] Interrupt
+[4.127s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/impedance_control_node.dir/all] Interrupt
+[4.128s] gmake: *** [Makefile:146: all] Interrupt

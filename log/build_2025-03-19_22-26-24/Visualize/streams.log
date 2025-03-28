@@ -1,0 +1,16 @@
+[1.845s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/Visualize': PYTHONPATH=/home/ubuntu/Desktop/MC_ws/build/Visualize/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/MC_ws/install/Visualize/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/Desktop/MC_ws/build/Visualize/build --no-deps
+[2.237s] running develop
+[2.471s] running egg_info
+[2.471s] writing Visualize.egg-info/PKG-INFO
+[2.471s] writing dependency_links to Visualize.egg-info/dependency_links.txt
+[2.471s] writing entry points to Visualize.egg-info/entry_points.txt
+[2.471s] writing requirements to Visualize.egg-info/requires.txt
+[2.472s] writing top-level names to Visualize.egg-info/top_level.txt
+[2.473s] reading manifest file 'Visualize.egg-info/SOURCES.txt'
+[2.474s] writing manifest file 'Visualize.egg-info/SOURCES.txt'
+[2.476s] running build_ext
+[2.476s] Creating /home/ubuntu/Desktop/MC_ws/install/Visualize/lib/python3.10/site-packages/Visualize.egg-link (link to .)
+[2.477s] Installing data_plot script to /home/ubuntu/Desktop/MC_ws/install/Visualize/lib/Visualize
+[2.477s] 
+[2.477s] Installed /home/ubuntu/Desktop/MC_ws/build/Visualize
+[2.513s] Invoked command in '/home/ubuntu/Desktop/MC_ws/build/Visualize' returned '0': PYTHONPATH=/home/ubuntu/Desktop/MC_ws/build/Visualize/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/MC_ws/install/Visualize/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/Desktop/MC_ws/build/Visualize/build --no-deps

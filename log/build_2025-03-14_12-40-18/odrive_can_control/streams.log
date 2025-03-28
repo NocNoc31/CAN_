@@ -1,0 +1,51 @@
+[0.690s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/odrive_can_control -- -j8 -l8
+[0.713s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.827s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.861s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.865s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.872s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.891s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.899s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.932s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.933s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.949s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.075s] -- Configuring done
+[1.096s] -- Generating done
+[1.106s] -- Build files have been written to: /home/ubuntu/Desktop/MC_ws/build/odrive_can_control
+[1.130s] [35m[1mConsolidate compiler generated dependencies of target odrive_initializer[0m
+[1.131s] [35m[1mConsolidate compiler generated dependencies of target odrive_can_node[0m
+[1.132s] [35m[1mConsolidate compiler generated dependencies of target heartbeat_reader[0m
+[1.133s] [35m[1mConsolidate compiler generated dependencies of target velocity_controller[0m
+[1.166s] [ 25%] Built target odrive_can_node
+[1.166s] [ 37%] [32mBuilding CXX object CMakeFiles/heartbeat_reader.dir/src/heartbeat_reader.cpp.o[0m
+[1.166s] [ 62%] Built target odrive_initializer
+[1.171s] [ 75%] [32mBuilding CXX object CMakeFiles/velocity_controller.dir/src/velocity_controller.cpp.o[0m
+[3.781s] [ 87%] [32m[1mLinking CXX executable heartbeat_reader[0m
+[3.881s] [ 87%] Built target heartbeat_reader
+[7.759s] [100%] [32m[1mLinking CXX executable velocity_controller[0m
+[8.067s] [100%] Built target velocity_controller
+[8.079s] Invoked command in '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/odrive_can_control -- -j8 -l8
+[8.080s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/MC_ws/build/odrive_can_control
+[8.087s] -- Install configuration: ""
+[8.087s] -- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/lib/odrive_can_control/odrive_can_node
+[8.087s] -- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/lib/odrive_can_control/odrive_initializer
+[8.088s] -- Installing: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/lib/odrive_can_control/velocity_controller
+[8.091s] -- Set runtime path of "/home/ubuntu/Desktop/MC_ws/install/odrive_can_control/lib/odrive_can_control/velocity_controller" to ""
+[8.091s] -- Installing: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/lib/odrive_can_control/heartbeat_reader
+[8.092s] -- Set runtime path of "/home/ubuntu/Desktop/MC_ws/install/odrive_can_control/lib/odrive_can_control/heartbeat_reader" to ""
+[8.092s] -- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/ament_index/resource_index/package_run_dependencies/odrive_can_control
+[8.092s] -- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/ament_index/resource_index/parent_prefix_path/odrive_can_control
+[8.092s] -- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/environment/ament_prefix_path.sh
+[8.092s] -- Installing: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/environment/ament_prefix_path.dsv
+[8.092s] -- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/environment/path.sh
+[8.092s] -- Installing: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/environment/path.dsv
+[8.092s] -- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/local_setup.bash
+[8.092s] -- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/local_setup.sh
+[8.092s] -- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/local_setup.zsh
+[8.093s] -- Installing: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/local_setup.dsv
+[8.093s] -- Installing: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/package.dsv
+[8.093s] -- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/ament_index/resource_index/packages/odrive_can_control
+[8.093s] -- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/cmake/odrive_can_controlConfig.cmake
+[8.093s] -- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/cmake/odrive_can_controlConfig-version.cmake
+[8.093s] -- Installing: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/package.xml
+[8.095s] Invoked command in '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/MC_ws/build/odrive_can_control

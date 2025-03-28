@@ -1,0 +1,74 @@
+[0.675s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/odrive_can_control -- -j8 -l8
+[0.734s] [35m[1mConsolidate compiler generated dependencies of target odrive_initializer[0m
+[0.736s] [ 20%] Built target odrive_can_node
+[0.749s] [ 60%] Built target read_param
+[0.749s] [ 60%] Built target velocity_controller
+[0.755s] [ 80%] Built target impedance_multi_control
+[0.755s] [ 90%] [32mBuilding CXX object CMakeFiles/odrive_initializer.dir/src/odrive_initializer.cpp.o[0m
+[2.579s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:221:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.579s]   221 | }
+[2.579s]       |  [01;31m[K^[m[K
+[2.579s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:11:47:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.579s]    11 | class ODriveInitializer : public rclcpp::Node [01;36m[K{[m[K
+[2.579s]       |                                               [01;36m[K^[m[K
+[2.596s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:[m[K In constructor ‘[01m[KODriveInitializer::ODriveInitializer()[m[K’:
+[2.596s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksocket[m[K’?
+[2.596s]    23 |         [01;31m[Ksock_[m[K = socket(PF_CAN, SOCK_RAW, CAN_RAW);
+[2.596s]       |         [01;31m[K^~~~~[m[K
+[2.596s]       |         [32m[Ksocket[m[K
+[2.603s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:[m[K In destructor ‘[01m[Kvirtual ODriveInitializer::~ODriveInitializer()[m[K’:
+[2.603s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:57:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksocket[m[K’?
+[2.603s]    57 |         if ([01;31m[Ksock_[m[K >= 0) {
+[2.603s]       |             [01;31m[K^~~~~[m[K
+[2.603s]       |             [32m[Ksocket[m[K
+[2.609s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:[m[K In member function ‘[01m[Kvoid ODriveInitializer::initialize_odrive(int, const string&)[m[K’:
+[2.609s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:67:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_can_frame[m[K’ was not declared in this scope; did you mean ‘[01m[Kcan_frame[m[K’?
+[2.609s]    67 |         if ([01;31m[Ksend_can_frame[m[K(node_id, 0x07, {0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}) < 0) {
+[2.609s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.609s]       |             [32m[Kcan_frame[m[K
+[2.617s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:75:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_can_frame[m[K’ was not declared in this scope; did you mean ‘[01m[Kcan_frame[m[K’?
+[2.617s]    75 |         if ([01;31m[Ksend_can_frame[m[K(node_id, 0x0B, {0x03, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00}) < 0) {
+[2.617s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.617s]       |             [32m[Kcan_frame[m[K
+[2.623s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:83:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_pos_estimate[m[K’ was not declared in this scope; did you mean ‘[01m[Kpos_estimate[m[K’?
+[2.623s]    83 |         float pos_estimate = [01;31m[Kget_pos_estimate[m[K(node_id);
+[2.623s]       |                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.623s]       |                              [32m[Kpos_estimate[m[K
+[2.630s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:97:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_can_frame[m[K’ was not declared in this scope; did you mean ‘[01m[Kcan_frame[m[K’?
+[2.630s]    97 |         if ([01;31m[Ksend_can_frame[m[K(node_id, 0x0C, {setpoint_bytes[0], setpoint_bytes[1],
+[2.630s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.631s]       |             [32m[Kcan_frame[m[K
+[2.637s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:107:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_can_frame[m[K’ was not declared in this scope; did you mean ‘[01m[Kcan_frame[m[K’?
+[2.638s]   107 |         if ([01;31m[Ksend_can_frame[m[K(node_id, 0x07, {0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}) < 0) {
+[2.638s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.638s]       |             [32m[Kcan_frame[m[K
+[2.645s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:123:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_can_frame[m[K’ was not declared in this scope; did you mean ‘[01m[Kcan_frame[m[K’?
+[2.645s]   123 |             if ([01;31m[Ksend_can_frame[m[K(node_id, 0x0C, {setpoint_bytes[0], setpoint_bytes[1],
+[2.645s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.645s]       |                 [32m[Kcan_frame[m[K
+[2.652s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:145:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_can_frame[m[K’ was not declared in this scope; did you mean ‘[01m[Kcan_frame[m[K’?
+[2.653s]   145 |             if ([01;31m[Ksend_can_frame[m[K(node_id, 0x07, {0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}) < 0) {
+[2.653s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.653s]       |                 [32m[Kcan_frame[m[K
+[2.659s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:152:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_can_frame[m[K’ was not declared in this scope; did you mean ‘[01m[Kcan_frame[m[K’?
+[2.659s]   152 |             if ([01;31m[Ksend_can_frame[m[K(node_id, 0x0B, {0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00}) < 0) {
+[2.659s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.659s]       |                 [32m[Kcan_frame[m[K
+[2.667s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:159:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_can_frame[m[K’ was not declared in this scope; did you mean ‘[01m[Kcan_frame[m[K’?
+[2.667s]   159 |             if ([01;31m[Ksend_can_frame[m[K(node_id, 0x07, {0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}) < 0) {
+[2.667s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.667s]       |                 [32m[Kcan_frame[m[K
+[2.668s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:170:90:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[2.668s]   170 |     int send_can_frame(int node_id, uint8_t cmd_id, std::initializer_list<uint8_t> data) [01;31m[K{[m[K
+[2.668s]       |                                                                                          [01;31m[K^[m[K
+[2.668s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:191:41:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[2.668s]   191 |     float get_pos_estimate(int node_id) [01;31m[K{[m[K
+[2.668s]       |                                         [01;31m[K^[m[K
+[2.672s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:[m[K At global scope:
+[2.672s] [01m[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:221:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.672s]   221 | }
+[2.672s]       |  [01;31m[K^[m[K
+[3.001s] gmake[2]: *** [CMakeFiles/odrive_initializer.dir/build.make:76: CMakeFiles/odrive_initializer.dir/src/odrive_initializer.cpp.o] Error 1
+[3.001s] gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/odrive_initializer.dir/all] Error 2
+[3.002s] gmake: *** [Makefile:146: all] Error 2
+[3.003s] Invoked command in '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/odrive_can_control -- -j8 -l8

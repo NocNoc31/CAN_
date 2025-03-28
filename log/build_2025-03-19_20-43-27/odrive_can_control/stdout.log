@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target odrive_initializer[0m
+[ 20%] Built target odrive_can_node
+[ 50%] Built target velocity_controller
+[ 60%] Built target impedance_multi_control
+[ 80%] Built target read_param
+[ 90%] [32mBuilding CXX object CMakeFiles/odrive_initializer.dir/src/odrive_initializer.cpp.o[0m

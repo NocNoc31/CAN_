@@ -1,0 +1,1 @@
+/home/ubuntu/Desktop/MC_ws/myenv/lib/python3.10/site-packages/IPython/testing/plugin/setup.py

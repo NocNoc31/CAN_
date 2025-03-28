@@ -1,0 +1,35 @@
+[0.986s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/odrive_can_control -- -j8 -l8
+[1.070s] [35m[1mConsolidate compiler generated dependencies of target odrive_initializer[0m
+[1.122s] [ 20%] Built target impedance_multi_control
+[1.122s] [ 40%] Built target odrive_can_node
+[1.125s] [ 60%] Built target velocity_controller
+[1.135s] [ 70%] [32mBuilding CXX object CMakeFiles/odrive_initializer.dir/src/odrive_initializer.cpp.o[0m
+[1.142s] [ 90%] Built target read_param
+[4.658s] [100%] [32m[1mLinking CXX executable odrive_initializer[0m
+[4.790s] [100%] Built target odrive_initializer
+[4.801s] Invoked command in '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/odrive_can_control -- -j8 -l8
+[4.803s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/MC_ws/build/odrive_can_control
+[4.808s] -- Install configuration: ""
+[4.808s] -- Execute custom install script
+[4.808s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/lib/odrive_can_control/odrive_can_node
+[4.809s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/lib/odrive_can_control/odrive_initializer
+[4.809s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/lib/odrive_can_control/velocity_controller
+[4.809s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/lib/odrive_can_control/impedance_multi_control
+[4.809s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/lib/odrive_can_control/read_param
+[4.809s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/launch/odrive_initializer.launch.py
+[4.809s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/ament_index/resource_index/package_run_dependencies/odrive_can_control
+[4.810s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/ament_index/resource_index/parent_prefix_path/odrive_can_control
+[4.811s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/environment/ament_prefix_path.sh
+[4.811s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/environment/ament_prefix_path.dsv
+[4.811s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/environment/path.sh
+[4.812s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/environment/path.dsv
+[4.812s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/local_setup.bash
+[4.812s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/local_setup.sh
+[4.812s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/local_setup.zsh
+[4.813s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/local_setup.dsv
+[4.813s] -- Symlinking: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/package.dsv
+[4.830s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/ament_index/resource_index/packages/odrive_can_control
+[4.832s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/cmake/odrive_can_controlConfig.cmake
+[4.832s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/cmake/odrive_can_controlConfig-version.cmake
+[4.833s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/odrive_can_control/share/odrive_can_control/package.xml
+[4.839s] Invoked command in '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/MC_ws/build/odrive_can_control

@@ -1,0 +1,23 @@
+[0.443s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/data_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/data_pub -- -j8 -l8
+[0.715s] [100%] Built target data_pub_node
+[0.718s] Invoked command in '/home/ubuntu/Desktop/MC_ws/build/data_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/data_pub -- -j8 -l8
+[0.728s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/data_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/MC_ws/build/data_pub
+[0.735s] -- Install configuration: ""
+[0.736s] -- Execute custom install script
+[0.736s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/lib/data_pub/data_pub_node
+[0.736s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/ament_index/resource_index/package_run_dependencies/data_pub
+[0.737s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/ament_index/resource_index/parent_prefix_path/data_pub
+[0.737s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/environment/ament_prefix_path.sh
+[0.737s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/environment/ament_prefix_path.dsv
+[0.737s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/environment/path.sh
+[0.737s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/environment/path.dsv
+[0.737s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/local_setup.bash
+[0.738s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/local_setup.sh
+[0.738s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/local_setup.zsh
+[0.738s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/local_setup.dsv
+[0.738s] -- Symlinking: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/package.dsv
+[0.750s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/ament_index/resource_index/packages/data_pub
+[0.750s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/cmake/data_pubConfig.cmake
+[0.750s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/cmake/data_pubConfig-version.cmake
+[0.750s] -- Up-to-date symlink: /home/ubuntu/Desktop/MC_ws/install/data_pub/share/data_pub/package.xml
+[0.752s] Invoked command in '/home/ubuntu/Desktop/MC_ws/build/data_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/MC_ws/build/data_pub

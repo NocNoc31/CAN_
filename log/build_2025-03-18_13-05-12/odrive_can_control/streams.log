@@ -1,0 +1,10 @@
+[0.826s] Invoking command in '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/odrive_can_control -- -j8 -l8
+[0.938s] [ 20%] Built target odrive_can_node
+[0.955s] [ 40%] Built target odrive_initializer
+[0.956s] [ 60%] Built target velocity_controller
+[0.960s] [ 70%] [32mBuilding CXX object CMakeFiles/impedance_multi_control.dir/src/impedance_multi_control.cpp.o[0m
+[0.963s] [ 90%] Built target read_param
+[4.120s] gmake[2]: *** [CMakeFiles/impedance_multi_control.dir/build.make:76: CMakeFiles/impedance_multi_control.dir/src/impedance_multi_control.cpp.o] Interrupt
+[4.122s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/impedance_multi_control.dir/all] Interrupt
+[4.122s] gmake: *** [Makefile:146: all] Interrupt
+[4.138s] Invoked command in '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/MC_ws/build/odrive_can_control -- -j8 -l8

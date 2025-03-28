@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000165] (-) JobUnselected: {'identifier': 'IPython doctest plugin'}
+[0.000283] (-) JobUnselected: {'identifier': 'Visualize'}
+[0.000299] (-) JobUnselected: {'identifier': 'data_pub'}
+[0.000312] (-) JobUnselected: {'identifier': 'impedance_control'}
+[0.000324] (-) JobUnselected: {'identifier': 'my-test-package'}
+[0.000339] (odrive_can_control) JobQueued: {'identifier': 'odrive_can_control', 'dependencies': OrderedDict()}
+[0.000512] (odrive_can_control) JobStarted: {'identifier': 'odrive_can_control'}
+[0.008037] (odrive_can_control) JobProgress: {'identifier': 'odrive_can_control', 'progress': 'cmake'}
+[0.008451] (odrive_can_control) JobProgress: {'identifier': 'odrive_can_control', 'progress': 'build'}
+[0.009012] (odrive_can_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'ubuntu'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1675'), ('SYSTEMD_EXEC_PID', '1816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6648'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/MC_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:11860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-Aspire-A315-58:@/tmp/.ICE-unix/1792,unix/ubuntu-Aspire-A315-58:/tmp/.ICE-unix/1792'), ('INVOCATION_ID', '85645bfa780b43c9b1f3eb6ab87e485b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JXMO32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/MC_ws/install/odrive_can_control:/home/ubuntu/Desktop/MC_ws/install/impedance_control:/home/ubuntu/Desktop/MC_ws/install/data_pub:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:bbb9b0de-d144-4480-9c49-65a31b735f50'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Desktop/MC_ws/build/odrive_can_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Desktop/MC_ws/build/my-test-package:/home/ubuntu/Desktop/MC_ws/install/my-test-package/lib/python3.10/site-packages:/home/ubuntu/Desktop/MC_ws/build/Visualize:/home/ubuntu/Desktop/MC_ws/install/Visualize/lib/python3.10/site-packages:/home/ubuntu/Desktop/MC_ws/build/IPython doctest plugin:/home/ubuntu/Desktop/MC_ws/install/IPython doctest plugin/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/MC_ws/install/odrive_can_control:/home/ubuntu/Desktop/MC_ws/install/impedance_control:/home/ubuntu/Desktop/MC_ws/install/data_pub:/home/ubuntu/Desktop/MC_ws/install/Visualize:/opt/ros/humble')]), 'shell': False}
+[0.050978] (odrive_can_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target odrive_initializer\x1b[0m\n'}
+[0.067067] (odrive_can_control) StdoutLine: {'line': b'[ 20%] Built target read_param\n'}
+[0.072705] (odrive_can_control) StdoutLine: {'line': b'[ 80%] Built target velocity_controller\n'}
+[0.073020] (odrive_can_control) StdoutLine: {'line': b'[ 80%] Built target impedance_multi_control\n'}
+[0.073146] (odrive_can_control) StdoutLine: {'line': b'[ 80%] Built target odrive_can_node\n'}
+[0.073877] (odrive_can_control) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/odrive_initializer.dir/src/odrive_initializer.cpp.o\x1b[0m\n'}
+[0.099866] (-) TimerEvent: {}
+[0.200205] (-) TimerEvent: {}
+[0.300529] (-) TimerEvent: {}
+[0.400877] (-) TimerEvent: {}
+[0.501210] (-) TimerEvent: {}
+[0.601841] (-) TimerEvent: {}
+[0.702373] (-) TimerEvent: {}
+[0.802846] (-) TimerEvent: {}
+[0.903260] (-) TimerEvent: {}
+[1.003870] (-) TimerEvent: {}
+[1.104339] (-) TimerEvent: {}
+[1.204690] (-) TimerEvent: {}
+[1.305050] (-) TimerEvent: {}
+[1.405399] (-) TimerEvent: {}
+[1.505724] (-) TimerEvent: {}
+[1.606026] (-) TimerEvent: {}
+[1.706327] (-) TimerEvent: {}
+[1.806588] (-) TimerEvent: {}
+[1.906865] (-) TimerEvent: {}
+[2.007125] (-) TimerEvent: {}
+[2.107411] (-) TimerEvent: {}
+[2.129330] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:221:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[2.129503] (odrive_can_control) StderrLine: {'line': b'  221 | }\n'}
+[2.129553] (odrive_can_control) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.129596] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:11:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.129650] (odrive_can_control) StderrLine: {'line': b'   11 | class ODriveInitializer : public rclcpp::Node \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[2.129692] (odrive_can_control) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.139089] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KODriveInitializer::ODriveInitializer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.139258] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:23:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksock_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksocket\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.139319] (odrive_can_control) StderrLine: {'line': b'   23 |         \x1b[01;31m\x1b[Ksock_\x1b[m\x1b[K = socket(PF_CAN, SOCK_RAW, CAN_RAW);\n'}
+[2.139373] (odrive_can_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.139415] (odrive_can_control) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ksocket\x1b[m\x1b[K\n'}
+[2.146859] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kvirtual ODriveInitializer::~ODriveInitializer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.147013] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:57:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksock_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksocket\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.147062] (odrive_can_control) StderrLine: {'line': b'   57 |         if (\x1b[01;31m\x1b[Ksock_\x1b[m\x1b[K >= 0) {\n'}
+[2.147105] (odrive_can_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.147146] (odrive_can_control) StderrLine: {'line': b'      |             \x1b[32m\x1b[Ksocket\x1b[m\x1b[K\n'}
+[2.156536] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ODriveInitializer::initialize_odrive(int, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.156703] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:67:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_can_frame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcan_frame\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.156757] (odrive_can_control) StderrLine: {'line': b'   67 |         if (\x1b[01;31m\x1b[Ksend_can_frame\x1b[m\x1b[K(node_id, 0x07, {0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}) < 0) {\n'}
+[2.156801] (odrive_can_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.156850] (odrive_can_control) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kcan_frame\x1b[m\x1b[K\n'}
+[2.164411] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:75:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_can_frame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcan_frame\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.164563] (odrive_can_control) StderrLine: {'line': b'   75 |         if (\x1b[01;31m\x1b[Ksend_can_frame\x1b[m\x1b[K(node_id, 0x0B, {0x03, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00}) < 0) {\n'}
+[2.164624] (odrive_can_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.164676] (odrive_can_control) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kcan_frame\x1b[m\x1b[K\n'}
+[2.173715] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:83:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_pos_estimate\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpos_estimate\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.173873] (odrive_can_control) StderrLine: {'line': b'   83 |         float pos_estimate = \x1b[01;31m\x1b[Kget_pos_estimate\x1b[m\x1b[K(node_id);\n'}
+[2.173921] (odrive_can_control) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.173964] (odrive_can_control) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kpos_estimate\x1b[m\x1b[K\n'}
+[2.181505] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:97:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_can_frame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcan_frame\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.181693] (odrive_can_control) StderrLine: {'line': b'   97 |         if (\x1b[01;31m\x1b[Ksend_can_frame\x1b[m\x1b[K(node_id, 0x0C, {setpoint_bytes[0], setpoint_bytes[1],\n'}
+[2.181752] (odrive_can_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.181796] (odrive_can_control) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kcan_frame\x1b[m\x1b[K\n'}
+[2.191077] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:107:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_can_frame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcan_frame\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.191245] (odrive_can_control) StderrLine: {'line': b'  107 |         if (\x1b[01;31m\x1b[Ksend_can_frame\x1b[m\x1b[K(node_id, 0x07, {0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}) < 0) {\n'}
+[2.191293] (odrive_can_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.191334] (odrive_can_control) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kcan_frame\x1b[m\x1b[K\n'}
+[2.199327] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:123:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_can_frame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcan_frame\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.199499] (odrive_can_control) StderrLine: {'line': b'  123 |             if (\x1b[01;31m\x1b[Ksend_can_frame\x1b[m\x1b[K(node_id, 0x0C, {setpoint_bytes[0], setpoint_bytes[1],\n'}
+[2.199549] (odrive_can_control) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.199591] (odrive_can_control) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kcan_frame\x1b[m\x1b[K\n'}
+[2.207524] (-) TimerEvent: {}
+[2.209108] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:145:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_can_frame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcan_frame\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.209241] (odrive_can_control) StderrLine: {'line': b'  145 |             if (\x1b[01;31m\x1b[Ksend_can_frame\x1b[m\x1b[K(node_id, 0x07, {0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}) < 0) {\n'}
+[2.209302] (odrive_can_control) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.209343] (odrive_can_control) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kcan_frame\x1b[m\x1b[K\n'}
+[2.217035] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:152:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_can_frame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcan_frame\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.217446] (odrive_can_control) StderrLine: {'line': b'  152 |             if (\x1b[01;31m\x1b[Ksend_can_frame\x1b[m\x1b[K(node_id, 0x0B, {0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00}) < 0) {\n'}
+[2.217510] (odrive_can_control) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.217560] (odrive_can_control) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kcan_frame\x1b[m\x1b[K\n'}
+[2.226131] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:159:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_can_frame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcan_frame\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.226287] (odrive_can_control) StderrLine: {'line': b'  159 |             if (\x1b[01;31m\x1b[Ksend_can_frame\x1b[m\x1b[K(node_id, 0x07, {0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}) < 0) {\n'}
+[2.226343] (odrive_can_control) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.226383] (odrive_can_control) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kcan_frame\x1b[m\x1b[K\n'}
+[2.226808] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:170:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.226859] (odrive_can_control) StderrLine: {'line': b'  170 |     int send_can_frame(int node_id, uint8_t cmd_id, std::initializer_list<uint8_t> data) \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[2.226898] (odrive_can_control) StderrLine: {'line': b'      |                                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.226937] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:191:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.226977] (odrive_can_control) StderrLine: {'line': b'  191 |     float get_pos_estimate(int node_id) \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[2.227014] (odrive_can_control) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.231931] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.232125] (odrive_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Desktop/MC_ws/src/odrive_can_control/src/odrive_initializer.cpp:221:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[2.232195] (odrive_can_control) StderrLine: {'line': b'  221 | }\n'}
+[2.232256] (odrive_can_control) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.307651] (-) TimerEvent: {}
+[2.407910] (-) TimerEvent: {}
+[2.508201] (-) TimerEvent: {}
+[2.608470] (-) TimerEvent: {}
+[2.610740] (odrive_can_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/odrive_initializer.dir/build.make:76: CMakeFiles/odrive_initializer.dir/src/odrive_initializer.cpp.o] Error 1\n'}
+[2.610991] (odrive_can_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/odrive_initializer.dir/all] Error 2\n'}
+[2.611045] (odrive_can_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.613163] (odrive_can_control) CommandEnded: {'returncode': 2}
+[2.626144] (odrive_can_control) JobEnded: {'identifier': 'odrive_can_control', 'rc': 2}
+[2.637183] (-) EventReactorShutdown: {}

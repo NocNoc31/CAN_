@@ -1,0 +1,1 @@
+/home/ubuntu/Desktop/MC_ws/build/data_pub/ament_cmake_core/data_pubConfig-version.cmake

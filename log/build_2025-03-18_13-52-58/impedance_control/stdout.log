@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target impedance_control_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/impedance_control_node.dir/src/impedance_control_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable impedance_control_node[0m
+[100%] Built target impedance_control_node
+-- Install configuration: ""
+-- Installing: /home/ubuntu/Desktop/MC_ws/install/impedance_control/lib/impedance_control/impedance_control_node
+-- Set runtime path of "/home/ubuntu/Desktop/MC_ws/install/impedance_control/lib/impedance_control/impedance_control_node" to ""
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control//impedance_control.launch.py
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/ament_index/resource_index/package_run_dependencies/impedance_control
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/ament_index/resource_index/parent_prefix_path/impedance_control
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/environment/path.sh
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/environment/path.dsv
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/local_setup.bash
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/local_setup.sh
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/local_setup.zsh
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/local_setup.dsv
+-- Installing: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/package.dsv
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/ament_index/resource_index/packages/impedance_control
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/cmake/impedance_controlConfig.cmake
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/cmake/impedance_controlConfig-version.cmake
+-- Up-to-date: /home/ubuntu/Desktop/MC_ws/install/impedance_control/share/impedance_control/package.xml
